@@ -1,0 +1,59 @@
+{
+  "name": "quorafy",
+  "version": "1.0.0",
+  "description": "Fetch general information about a Quora user and download their profile picture",
+  "main": "cli.js",
+  "bin": {
+    "quorafy": "cli.js"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeDotJS/quorafy.git"
+  },
+  "keywords": [
+    "cli",
+    "cli-app",
+    "quora",
+    "profile",
+    "user",
+    "scrap",
+    "information",
+    "followers",
+    "following",
+    "edits",
+    "answers",
+    "questions",
+    "data",
+    "image",
+    "picture",
+    "collect"
+  ],
+  "dependencies": {
+    "cheerio": "0.22.0",
+    "chalk": "^1.1.3",
+    "fs-extra": "^1.0.0",
+    "got": "^6.6.3",
+    "log-update": "^1.0.2",
+    "ora": "^0.4.0",
+    "update-notifier": "^1.0.3"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true
+  },
+  "author": "Rishi Giri <rushforlinux@gmail.com> (http://rishigiri.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CodeDotJS/quorafy/issues"
+  },
+  "homepage": "https://github.com/CodeDotJS/quorafye#readme"
+}
